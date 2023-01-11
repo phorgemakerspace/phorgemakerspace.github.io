@@ -1,0 +1,329 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Phorge Makerspace</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<script src="https://kit.fontawesome.com/6efc1eb4c4.js" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed&display=swap" rel="stylesheet">
+</head>
+
+<body class="homepage is-preload">
+	<!-- Messenger Chat Plugin Code -->
+	<div id="fb-root"></div>
+
+	<!-- Your Chat Plugin code -->
+	<div id="fb-customer-chat" class="fb-customerchat">
+	</div>
+
+	<script>
+		var chatbox = document.getElementById('fb-customer-chat');
+		chatbox.setAttribute("page_id", "127695417918109");
+		chatbox.setAttribute("attribution", "biz_inbox");
+	</script>
+
+	<!-- Your SDK code -->
+	<script>
+		window.fbAsyncInit = function () {
+			FB.init({
+				xfbml: true,
+				version: 'v15.0'
+			});
+		};
+
+		(function (d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
+	<div id="fb-root"></div>
+	<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0"
+		nonce="OTpNAlBr"></script>
+	<div id="page-wrapper">
+
+		<!-- Header -->
+		<section id="header">
+
+			<!-- Logo -->
+			<h1><img class="logo" src="images/logo.png"></h1>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul>
+					<li class="current"><a href="index.html">HOME</a></li>
+					<!-- <li>
+						<a href="#">Dropdown</a>
+						<ul>
+							<li><a href="#">Lorem ipsum dolor</a></li>
+							<li><a href="#">Magna phasellus</a></li>
+							<li><a href="#">Etiam dolore nisl</a></li>
+							<li>
+								<a href="#">Phasellus consequat</a>
+								<ul>
+									<li><a href="#">Magna phasellus</a></li>
+									<li><a href="#">Etiam dolore nisl</a></li>
+									<li><a href="#">Veroeros feugiat</a></li>
+									<li><a href="#">Nisl sed aliquam</a></li>
+									<li><a href="#">Dolore adipiscing</a></li>
+								</ul>
+							</li>
+							<li><a href="#">Veroeros feugiat</a></li>
+						</ul>
+					</li> -->
+					<li><a href="classes.html">CLASSES</a></li>
+					<li><a href="membership.html">MEMBERSHIP</a></li>
+					<li><a href="faq.html">FAQ</a></li>
+				</ul>
+			</nav>
+		</section>
+
+		<!-- Main -->
+		<section id="main">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<section>
+							<div class="row">
+								<div class="col-12">
+									<div style="text-align: center;">
+										<img style="width: 100%;" src="./images/slide2.jpg" alt="Want to learn?">
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="d-none">
+							<div class="row">
+								<div class="col-3">
+									<div>
+										<ul class="skills-list">
+											<li><i class="fa-solid fa-print"></i>&nbsp&nbsp3D Printing</li>
+											<li><i class="fa-solid fa-computer"></i>&nbsp&nbspArduino</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-3">
+									<div>
+										<ul class="skills-list">
+											<li><i class="fa-solid fa-cubes"></i>&nbsp&nbsp3D Design</li>
+											<li><i class="fa-solid fa-server"></i>&nbsp&nbspRaspberry Pi</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-3">
+									<div>
+										<ul class="skills-list">
+											<li><i class="fa-solid fa-bolt"></i>&nbsp&nbspElectronics</li>
+											<li><i class="fa-solid fa-triangle-exclamation"></i>&nbsp&nbspLaser Cutting
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-3">
+									<div>
+										<ul class="skills-list">
+											<li><i class="fa-solid fa-laptop-code"></i>&nbsp&nbspCoding</li>
+											<li><i class="fa-solid fa-scissors"></i>&nbsp&nbspVinyl Cutting</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section>
+							<div class="row">
+								<div class="col-4 col-6-medium col-12-small">
+									<header class="major">
+										<h2>Who are we?</h2>
+									</header>
+									<p style="text-align: left;">Phorge Makerspace is a community of makers with
+										roots extending throughout
+										Wyoming. Join us to share, create, collaborate, research, develop, mentor,
+										cross-pollinate, play, and of course…learn!</p>
+								</div>
+								<div class="col-8 col-6-medium col-12-small">
+									<header class="major">
+										<h2>What is a Makerspace?</h2>
+									</header>
+									<p style="text-align: left;">A makerspace is a place in which people with shared
+										interests can gather to
+										work
+										on projects while sharing ideas, equipment, and knowledge. A makerspace’s
+										interests can be truly diverse – including sewing, rocketry, fabrication, 3d
+										printing, coding, woodworking, soap-making, and more. These spaces are also
+										help
+										to prepare those who need the critical 21st century skills in the fields of
+										science, technology, engineering and math (STEM).</p>
+								</div>
+							</div>
+						</section>
+
+						<hr>
+						<br>
+
+						<!-- Portfolio -->
+						<section>
+							<header style="text-align: center;" class="major">
+								<h2>Want to know more?</h2>
+							</header>
+							<div class="row">
+								<div class="col-4 col-6-medium col-12-small">
+									<section class="box" style="text-align: center; height: 600px;">
+										<img style="width: 80%; margin-bottom: 2.5vh;" src="./images/facebook.png" />
+										<div style="margin-bottom: 10px;" class="fb-page"
+											data-href="https://www.facebook.com/phorgemakerspace/"
+											data-tabs="timeline,events,messages" data-width="270" data-height="300"
+											data-small-header="true" data-adapt-container-width="true"
+											data-hide-cover="true" data-show-facepile="false">
+										</div>
+										<p>Have a Facebook page? Come see what we're about and check out our
+											upcoming
+											events.</p>
+									</section>
+								</div>
+								<div class="col-4 col-6-medium col-12-small">
+									<section class="box" style="text-align: center; height: 600px;">
+										<img style="width: 80%; text-align: center;" src="./images/discord.png" />
+										<iframe src="https://discordapp.com/widget?id=645105632881541131&amp;theme=dark"
+											width="100%" height="300px" frameborder="0"></iframe>
+										<p>Many of us communicate on Discord. Join us to talk about what you're
+											interested in!</p>
+										<footer>
+											<ul class="actions">
+												<li><a href="https://discord.gg/uc8tV3q" target="_blank"
+														class="button alt">Click to Join</a></li>
+											</ul>
+										</footer>
+									</section>
+								</div>
+								<div class="col-4 col-6-medium col-12-small">
+									<section class="box" style="text-align: center; height: 600px;">
+										<img style="width: 65%; text-align: center;" src="./images/stripe.png" />
+										<p>Interested in showing support? Please consider a one-time (or recurring)
+											donation!</p>
+										<p>
+											Our space runs on membership dues and donations from interested people like
+											yourself.
+										</p>
+										<p>
+											Phorge Inc. is a 501(c)3 tax-exempt organization and all donors can be given
+											a donation receipt
+											upon request.
+										</p>
+										<p>
+											Thank you!
+										</p>
+										<footer>
+											<ul class="actions">
+												<li><a href="https://buy.stripe.com/28o14y6Ae9hJ9Vu3cc" target="_blank"
+														class="button alt">Donate</a></li>
+											</ul>
+										</footer>
+									</section>
+								</div>
+							</div>
+						</section>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<section id="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-4 col-12-medium">
+						<section>
+							<header>
+								<h2>Contact</h2>
+							</header>
+							<ul class="contact">
+								<li>
+									<h3>address</h3>
+									<p style="text-align: left;">
+										556 Broadway St<br />
+										Sheridan, WY 82801
+									</p>
+								</li>
+								<li>
+									<h3>email</h3>
+									<p style="text-align: left;"><a href="mailto:mail@phorge.co">mail@phorge.co</a>
+									</p>
+								</li>
+								<li>
+									<h3>phone</h3>
+									<p style="text-align: left;">302-751-2344</p>
+								</li>
+							</ul>
+						</section>
+					</div>
+					<div class="col-8 col-12-medium">
+						<section class="d-none">
+							<header>
+								<h2>Map</h2>
+							</header>
+							<div class="mapouter">
+								<div class="gmap_canvas"><iframe width="600" height="200" id="gmap_canvas"
+										src="https://maps.google.com/maps?q=556%20broadway%20st%20sheridan%20wy&t=&z=19&ie=UTF8&iwloc=&output=embed"
+										frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+									<br>
+									<style>
+										.mapouter {
+											position: relative;
+											text-align: right;
+											height: 200px;
+											width: 600px;
+										}
+									</style>
+									<style>
+										.gmap_canvas {
+											overflow: hidden;
+											background: none !important;
+											height: 200px;
+											width: 600px;
+										}
+									</style>
+								</div>
+							</div>
+							<footer>
+								<ul class="actions">
+									<li><a href="https://goo.gl/maps/BXsVG1juzp2Qfq8w8" target="_blank"
+											class="button">Get Directions</a></li>
+								</ul>
+							</footer>
+						</section>
+					</div>
+					<div class="col-12">
+
+						<!-- Copyright -->
+						<div id="copyright">
+							<ul class="links">
+								<li>&copy; All rights reserved.</li>
+							</ul>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.dropotron.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
